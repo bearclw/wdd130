@@ -1,4 +1,9 @@
 body {text-align:center;}
+#active {
+  background-color: white;
+  color: steelblue;
+}
+.main-para {font-size: 1.5em;line-height: 1.5em;}
 nav {background-color: steelblue; padding: 10px}
 a {
     color: white;
