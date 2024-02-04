@@ -1,9 +1,10 @@
 #content {
     max-width: 1600px; 
     margin: 0 auto;
-    text-align: center;
 }
-nav {
+nav a {
+    text-align: center;
+    color:black
     text-decoration: none;}
 #background {
         height: 725px; 
@@ -34,6 +35,12 @@ footer {
 }
 .icon {
     width: 80px;
+}
+#hero-msg {
+    text-align: center;
+}
+.home-grid {
+    text-align: center
 }
 #hero-img {
     width: 100%;
