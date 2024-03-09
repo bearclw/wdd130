@@ -163,6 +163,9 @@ main section img {
     grid-row: 1/3;
     z-index: -1;
 }
+#rivershome-grid {
+    max-width: 1600px;
+}
 #heroriver-box {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -236,6 +239,7 @@ footer p a:hover {
     text-decoration: underline;
 }
 footer {
+    max-width: 1600px;
     padding: 25px 50px;
     padding-top: 30px;
     margin-top: 200px;
