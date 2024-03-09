@@ -30,10 +30,11 @@ nav a {
         grid-row: 4/9;
 }
 Body {
+    max-width: 1600px;
     background-color: #C16200;
     font-family: 'Protest Guerrilla', 'Cherry Cream Soda', 'Protest Strike' ;
     font-size: 22px;
-    margin: 0;
+    margin: 0 auto;
     padding:0;
 }
 h2 {
@@ -203,12 +204,12 @@ main section img {
     color: #37423D;
 }
 .kayakcard-img {
-    Width: 677.33px;
+    Width: 800px;
     Height: 550.15px;
 }
 .raftingcard-img {
     float: right;
-    width: 700px;
+    width: 800px;
     height: 734.15px;
 }
 .canyon-card {
@@ -218,7 +219,7 @@ main section img {
     color: #C16200;
 }
 .canyoncard-img {
-    Width: 700px;
+    Width: 800px;
     Height: 580.81px;
 }
 #canyon-content {
