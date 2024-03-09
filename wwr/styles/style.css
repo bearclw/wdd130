@@ -162,6 +162,68 @@ main section img {
     grid-row: 1/3;
     z-index: -1;
 }
+#heroriver-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#heroriver {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#heroriver-img {
+    width: 100%;
+    height: 100%
+}
+#heroriver-msg {
+    text-align:center;
+    grid-column:2/3;
+    grid-row: 1/3;
+    margin-top: 100px;
+    color:aqua;
+    font-size: 3em;
+}
+#rapidsrafting-content {
+    float: left;
+    padding: 30px;
+}
+.rapidsrafting-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #37423D;
+    color:#C16200;
+}
+#kayak-content {
+    padding: 30px;
+}
+.kayak-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #37423D;
+}
+.kayakcard-img {
+    Width: 677.33px;
+    Height: 550.15px;
+}
+.raftingcard-img {
+    float: right;
+    width: 700px;
+    height: 734.15px;
+}
+.canyon-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #37423D;
+    color: #C16200;
+}
+.canyoncard-img {
+    Width: 700px;
+    Height: 580.81px;
+}
+#canyon-content {
+    padding: 30px;
+}
 .social img {
     padding-top: 15px;
 }
