@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#content {
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+.logo {
+    width: 300px;
+    
+}
+main {
+    margin-right: auto;
+    margin-left: auto;
+}
+.compressor {
+    width: 500px;
+    padding: 20px;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        grid-column: 4;
+    
+    }  
+ .this  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 0;
+    margin-left: auto;
+    padding: 20px;
+
+    
+    
+ }
+    .msg {
+        font-family:'Poppins','roboto';
+        font-size: 2em;
+        padding: 20px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        grid-column: 6/10;
+        grid-row: 6/7;
+        box-shadow: 5px 5px 10px #45280b;
+    }
+    .msg2 {
+        font-family:'Poppins','roboto';
+        font-size: 2em;
+        padding: 20px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        grid-column: 6/10;
+        grid-row: 6/7;
+        box-shadow: 5px 5px 10px #45280b;
+    }
+header {
+    font-size: 3em;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    font-family: 'lato';
+    box-shadow: 5px 5px 10px #45280b;
+}
+nav {
+    text-align: center;
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: 'lato' ;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    max-width: 1600px;
+    font-size: 3em;
+    padding: 25px 50px;
+    padding-top: 30px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 10px #45280b;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #ceb7b3;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card {
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
