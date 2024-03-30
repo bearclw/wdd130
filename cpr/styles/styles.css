@@ -3,10 +3,19 @@
 #content {
     max-width: 1600px; 
     margin: 0 auto;
+    background-color: #AB3D0C;
+
 }
 .logo {
     width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
     
+}
+.howto {
+    padding: 8px;
+    width: 99%;
+    height: 500px;
 }
 main {
     margin-right: auto;
@@ -30,6 +39,13 @@ main {
     
     
  }
+ h1 {
+    display: grid;
+   padding-left: 60px;
+   padding-top: 40px;
+   font-size: 60px;
+   color: #45280b;
+ }
     .msg {
         font-family:'Poppins','roboto';
         font-size: 2em;
@@ -39,6 +55,8 @@ main {
         grid-column: 6/10;
         grid-row: 6/7;
         box-shadow: 5px 5px 10px #45280b;
+        background-color: #4F5841;
+        color: #A88418
     }
     .msg2 {
         font-family:'Poppins','roboto';
@@ -50,14 +68,25 @@ main {
         grid-row: 6/7;
         box-shadow: 5px 5px 10px #45280b;
     }
+    .cprtraining {
+       height:800px;
+       display: grid;
+       margin-left: auto;
+       margin-right: auto;
+       padding-top: 100px; 
+    }
 header {
     font-size: 3em;
+    color: #45280b;
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center;
     font-family: 'lato';
     box-shadow: 5px 5px 10px #45280b;
+    background-color: #A88418;
 }
+
+
 nav {
     text-align: center;
     color:whitesmoke;
@@ -66,6 +95,14 @@ nav {
     padding: 35px;
     display: flex;
     justify-content: space-around;
+}
+nav a:hover {
+    background-color: black;
+    color: #ceb7b3;
+}
+p a:hover {
+    background-color: black;
+    color: #ceb7b3;
 }
 footer {
     max-width: 1600px;
@@ -78,47 +115,10 @@ footer {
     justify-content: space-around;
     align-items: center;
     box-shadow: 5px 5px 10px #45280b;
+    background-color: #A88418;
 }
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a{
-        display: block;
-        padding: 15px;
-    }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    #hero-msg h1 {
-        color: #ceb7b3;
-    }
-    .home-title {
-        font-size: 25px;
-    }
-    .rivers-card, .camping-card, .rapids-card {
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
+    .box {
+        display: flex;
     }
 }
