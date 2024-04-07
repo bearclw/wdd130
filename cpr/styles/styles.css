@@ -11,14 +11,22 @@
     padding-left: 10px;
     
 }
-.howto {
+.howto, .faqs {
     padding: 8px;
     width: 99%;
-    height: 500px;
+    height: 800px;
+}
+.cpr {
+    height:800px;
+       display: grid;
+       margin-left: auto;
+       margin-right: auto;
+       padding-top: 100px; 
 }
 main {
     margin-right: auto;
     margin-left: auto;
+    padding: 30px;
 }
 .compressor {
     width: 500px;
@@ -33,9 +41,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     margin-right: 0;
     margin-left: auto;
-    padding: 20px;
-
-    
+    padding: 20px;  
     
  }
  h1 {
@@ -44,9 +50,25 @@ main {
    padding-top: 40px;
    font-size: 60px;
    color: #45280b;
+   font-family: lato;
  }
+ ul {
+    font-family: lato;
+    font-size: 30px;
+   
+ }
+ li:nth-child(odd) {
+    list-style-type: "Q. ";
+    margin-bottom: 5px;
+}
+
+li:nth-child(even) {
+    list-style-type: "A. ";
+    margin-bottom: 15px;
+}
+
     .msg {
-        font-family:'Poppins','roboto';
+        font-family:'lato','roboto';
         font-size: 2em;
         padding: 20px;
         margin-top: 100px;
@@ -95,6 +117,12 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+nav a {
+    text-align: center;
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 35px;
+}
 nav a:hover {
     background-color: black;
     color: #ceb7b3;
@@ -119,5 +147,16 @@ footer {
 @media screen and (max-width: 900px) {
     .box {
         display: flex;
+    }
+    nav a {
+        display:block;
+        
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    .content {
+       display: grid;
+        flex-basis: 1%;
     }
 }
