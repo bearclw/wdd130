@@ -68,7 +68,7 @@ li:nth-child(even) {
 }
 
     .msg {
-        font-family:'lato','roboto';
+        font-family:'lato','roboto', 'Poppins';
         font-size: 3em;
         padding: 20px;
         margin-top: 100px;
@@ -104,7 +104,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center;
-    font-family: 'lato';
+    font-family: 'Poppins', 'lato';
     box-shadow: 5px 5px 10px #45280b;
     background-color: #A88418;
 }
@@ -114,7 +114,7 @@ nav {
     text-align: center;
     color:whitesmoke;
     text-decoration: none;
-    font-family: 'lato' ;
+    font-family: 'Poppins', 'lato';
     padding: 35px;
     display: flex;
     justify-content: space-around;
@@ -188,7 +188,5 @@ footer {
    p, .msg, .msg2 {
     font-size: small;
    }
-   msg {
-    font-size: small;
-   }
+ 
 }
