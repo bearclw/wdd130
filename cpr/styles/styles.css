@@ -69,7 +69,7 @@ li:nth-child(even) {
 
     .msg {
         font-family:'lato','roboto';
-        font-size: 2em;
+        font-size: 3em;
         padding: 20px;
         margin-top: 100px;
         margin-bottom: 100px;
@@ -81,13 +81,15 @@ li:nth-child(even) {
     }
     .msg2 {
         font-family:'Poppins','roboto';
-        font-size: 2em;
+        font-size: 3em;
         padding: 20px;
         margin-top: 100px;
         margin-bottom: 100px;
         grid-column: 6/10;
         grid-row: 6/7;
         box-shadow: 5px 5px 10px #45280b;
+        background-color: #4F5841;
+        color: #A88418
     }
     .cprtraining {
        height:800px;
@@ -146,7 +148,8 @@ footer {
 }
 @media screen and (max-width: 900px) {
     .box {
-        display: flex;
+        width: 100%;
+        
     }
     nav a {
         display:block;
@@ -155,8 +158,37 @@ footer {
     nav, footer {
         flex-direction: column;
     }
-    .content {
-       display: grid;
-        flex-basis: 1%;
-    }
+   .cprtraining {
+    width: 100%;
+    height: 50%;
+   }
+   .howto {
+    height: 50%
+   }
+   h1 {
+    font-size: x-large;
+    text-align: center;
+   }
+   .faqs {
+    height: 50%;
+   }
+   .cpr {
+    height: 200px;
+   }
+   .this {
+    height: 200px;
+   }
+   .compressor {
+    height: 150px;
+    width: 200px;
+   }
+   ul {
+    font-size: small;
+   }
+   p, .msg, .msg2 {
+    font-size: small;
+   }
+   msg {
+    font-size: small;
+   }
 }
